@@ -127,6 +127,14 @@ function App() {
   return (
     <div>
 
+        <meta charSet="utf-8" />
+        <title>Little Lemon Chicago</title>
+        <meta name="description" content="Little Lemon Chicago - A family owned Mediterranean restaurant." />
+        <meta property="og:title" content="Little Lemon Chicago" />
+        <meta property="og:description" content="A family owned Mediterranean restaurant." />
+        <meta property="og:image" content={logo} />
+        <meta property="og:url" content="https://littlelemon.com" />
+
       <div style={headerstyle}>
         <img src={logo} alt='header' style={logostyle} />
       </div>
